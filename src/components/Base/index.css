@@ -1,0 +1,90 @@
+.base-bg-container {
+  margin-top: 100px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.top-student-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.base-head {
+  color: #000000;
+  font-family: 'Roboto Mono';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 21.1px;
+  text-align: left;
+  text-align: center;
+  margin-top: 50px;
+}
+.banner-image {
+  width: 1379px;
+  height: 443px;
+  top: 83px;
+  left: 34px;
+  gap: 0px;
+  opacity: 0px;
+  align-self: center;
+}
+.review-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer-container {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-address {
+  color: white;
+  font-family: 'Roboto Mono';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.38px;
+  text-align: left;
+}
+.footer-para {
+  font-family: 'Roboto Mono';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.38px;
+  text-align: left;
+  color: white;
+}
+.footer-button {
+  background-color: white;
+  border-width: 0px;
+  text-align: center;
+  font-family: 'Roboto Mono';
+  font-weight: 500;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.footer-button:hover {
+  background-color: gray;
+}
+
+@media (max-width: 768px) {
+  .review-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-student-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-image {
+    height: 200px;
+    width: 400px;
+  }
+}

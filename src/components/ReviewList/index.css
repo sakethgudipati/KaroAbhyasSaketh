@@ -1,0 +1,21 @@
+.review-name {
+  font-family: 'Roboto Mono';
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21.1px;
+  text-align: left;
+}
+.review-item {
+  width: 300px;
+  background-color: #f2f2f2;
+  padding: 12px;
+  margin: 20px;
+}
+.review-para {
+  font-family: 'Roboto Mono';
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 18.46px;
+  text-align: left;
+}

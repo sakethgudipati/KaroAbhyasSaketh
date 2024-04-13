@@ -1,0 +1,81 @@
+.product-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: slategray;
+  margin-top: 50px;
+  padding-bottom: 60px;
+}
+.product-image {
+  height: 250px;
+  width: 500px;
+}
+.product-name {
+  font-family: 'Roboto Mono';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26.38px;
+  text-align: left;
+}
+.product-description {
+  font-family: 'Roboto Mono';
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22.42px;
+  text-align: left;
+}
+.price {
+  font-family: 'Roboto Mono';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26.38px;
+  text-align: left;
+}
+.add-to-cart-button {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border-width: 0px;
+  padding: 12px;
+  cursor: pointer;
+}
+.add-to-cart-button:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  color: black;
+}
+.product-info {
+  margin-left: 40px;
+}
+@media (max-width: 768px) {
+  .product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .product-image {
+    height: 50px;
+    width: 50px;
+  }
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .name {
+    text-align: center;
+  }
+  .product-description {
+    text-align: center;
+  }
+  .price {
+    text-align: center;
+  }
+}
